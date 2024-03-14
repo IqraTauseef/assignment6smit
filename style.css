@@ -1,0 +1,1092 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  
+}
+
+body{
+     font-family: "Open Sans", sans-serif;
+     background-color: #ffffff;
+     }
+
+     
+    
+       /* NAVBAR START */
+
+    nav{
+      box-shadow: rgba(0, 0, 0, 0.166) 20px 20px 20px;
+    }
+    .logo{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: auto;
+      padding-top: 12px;
+      padding-bottom:8px;
+      
+    }
+    div>a{
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      color:#f92882;
+      margin-left: 50px;
+      font-weight: bolder;
+      font-size: 22px;
+    }
+.navdiv{
+  margin-right: 40px;
+  padding-right: 50px;
+  transition: none;
+}
+    button{
+     
+      justify-content: space-between;
+      transform: scale(20s);
+
+    } 
+    img{
+      width: 38px;
+    }
+
+    .login{
+      margin-right: 40px;
+      border: 1px solid ;
+      font-size: 15px;
+      background-color: transparent;
+      padding: 5px;
+      border-radius: 5px;
+       color:#f92882;
+      
+    }
+    .signup{
+      margin-right: 40px;
+      border: 1px solid ;
+      font-size: 15px;
+      background-color: #f92882;
+      padding: 5px;
+      border-radius: 5px;
+       color: aliceblue;
+       
+    }
+    .bx-shopping-bag{
+      color:#f92882;
+      font-size: 20px;
+      transition: none;
+    }
+    .bx-globe{
+      
+      color:#674956;
+      font-size: 20px;
+      transition: none;
+    }
+    .bx-chevron-down{
+      margin-right: 40px;
+      color:#f92882;
+      font-size: 25px;
+    }
+button:hover{
+  transform: scale(1.2);
+  background-color: #eabdd0;
+}
+
+/* Navbar end */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* hero section start */
+section.hero{
+  
+  background-color:#f5f3ef;
+  padding: 60px;
+  padding-bottom: 0%;
+  height: 602px;
+  position: relative;
+  z-index: -1;
+}
+
+.heroimg{
+  
+  height: 542px;
+  width: 618px;
+  position: absolute;
+  margin-left: 54%;
+  margin-bottom: 0%;
+}
+
+.hero>h3{
+  font-size: 40px;
+  font-weight: 250;
+  margin-top: 145px;
+  margin-left: 80px;
+  min-width: 220px;
+  width: 70%;
+}
+
+
+.search{
+  margin: 30px;
+  background-color: #fafafa;
+  padding: 19px;
+  border-radius: 18px;
+  height: 100px;
+  width: 782px;
+ 
+}
+
+.search>input{
+  background-color: #ffffff;
+  
+  padding: 12px;
+  height: 59px;
+  width: 600px;
+  font-size: 80% ;
+  border-radius: 10px;
+  border-color: #a8a8a823;
+  color: #ded7da78;
+  /* box-shadow: rgba(0, 0, 0, 0.064) 9px 9px 9px;  */
+  position: relative;
+}
+
+.search input::placeholder{
+  color: #aca5a878;
+ } 
+.locateme{
+  color: #f92882;
+  font-family: "Open Sans";
+  font-size: 18px;
+  margin-left: 520px;
+  position: absolute;
+  top: 384px;
+  
+  
+}
+
+.Findfood{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition:1s ease;
+  border: 1px solid ;
+  font-size: 15px;
+  background-color: #e92479;
+  padding: 15px;
+  border-radius: 6px;
+  color: aliceblue;
+  margin-left:25px;
+}
+
+
+.Findfood:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* Hero section done */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Banner section start */
+
+#banner{
+  margin:7% 0%;
+}
+
+
+.partnertext{
+ font-weight: 320;
+ font-size: 40px;
+ bottom: 50%;
+ padding-bottom: 2%;
+ padding-left: 6%;
+}
+
+
+.partner-bg{
+  height: 20%;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.parttext{
+  width: 43%; 
+  height: 47%;
+  left: 106px;
+  top: 148%;
+  position: absolute;
+  background-color: #ffffff;
+  padding: 2%;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.parttext h3{
+  font-weight: 350;
+  font-size: 30px;
+}
+
+.parttext p{
+  font-size: 16px;
+}
+.parttext button{
+  background-color: #e92479;
+  border: none ;
+  padding:9px;
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 9px;
+}
+.parttext button:hover{
+  background-color: #d11d6b;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+
+/* banner section end */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* cities section start  */
+
+#cities{
+margin-top: 25%;
+display: inline;
+}
+
+#cities h2{
+  margin-left:90px;
+  font-size: 32px;
+  font-weight: 350;
+  margin-top: 16%;
+  bottom:20px;  
+}
+
+#column-1
+{
+  height: 200px;
+  width: auto;
+  display: flex;
+  text-align-last: center;
+  margin-top: 20px;
+  padding: 0px 50px 0px 50px;
+}
+
+.image-1
+{
+  width: 25%;
+  height: auto;
+}
+.image-1-01
+{
+  height: 120%;
+  width: 95% !important;
+  border-radius: 12px;
+}
+
+.image-2
+{
+  width: 25%;
+  height: auto;
+}
+.image-2-02
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+
+
+.image-3
+{
+  width: 25%;
+  height: auto;
+}
+.image-3-03
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+
+.image-4
+{
+  width: 25%;
+  height: auto;
+}
+.image-4-04
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+
+
+
+                          /* column-1 end */
+
+
+#column-2
+{
+  height: 200px;
+  width: auto;
+  display: flex;
+  text-align-last: center;
+  margin-top: 60px;
+  padding: 0px 50px 0px 50px;
+}
+                          
+.image-5
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-5-05
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+                          
+     
+                          
+.image-6
+{
+   width: 25%;
+   height: auto;
+}
+.image-6-06
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+                       
+.image-7
+{
+  width: 25%;
+  height: auto;
+}
+.image-7-07
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;                         
+}
+
+                          
+.image-8
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-8-08
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+                           
+}                        
+                                  /* column-02 done */
+
+#column-3
+{
+  height: 200px;
+  width: auto;
+  display: flex;
+  text-align-last: center;
+  margin-top: 60px;
+  padding: 0px 50px 0px 50px;
+}
+                          
+.image-9
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-9-09
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+                                            
+.image-10
+{
+   width: 25%;
+   height: auto;
+}
+.image-10-10
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+ 
+                          
+.image-11
+{
+  width: 25%;
+  height: auto;
+}
+.image-11-11
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;                  
+}
+
+                          
+.image-12
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-12-12
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+                           
+}
+                          
+
+
+                                 /* column-03 done */
+#column-4
+{
+  height: 200px;
+  width: auto;
+  display: flex;
+  text-align-last: center;
+  margin-top: 60px;
+  padding: 0px 50px 0px 50px;
+}
+                          
+.image-9
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-9-09
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+                                             
+.image-10
+{
+   width: 25%;
+   height: auto;
+}
+.image-10-10
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+                                               
+.image-11
+{
+  width: 25%;
+  height: auto;
+}
+.image-11-11
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+                           
+}
+                     
+.image-12
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-12-12
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+                           
+}
+  
+                         /* column-3d0ne */
+
+#column-4
+{
+  height: 200px;
+  width: auto;
+  display: flex;
+  text-align-last: center;
+  margin-top: 60px;
+  padding: 0px 50px 0px 50px;
+}
+                          
+.image-13
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-13-13
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+                 
+.image-14
+{
+   width: 25%;
+   height: auto;
+}
+.image-14-14
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+               
+.image-15
+{
+  width: 25%;
+  height: auto;
+}
+.image-15-15
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;                         
+}
+                       
+.image-16
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-16-16
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+                           
+}
+                          
+
+                             /* column-4done */
+#column-5
+{
+  height: 200px;
+  width: auto;
+  display: flex;
+  text-align-last: center;
+  margin-top: 60px;
+  padding: 0px 50px 0px 50px;
+}
+                          
+.image-17
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-17-17
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+
+.image-18
+{
+   width: 25%;
+   height: auto;
+}
+.image-18-18
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+             
+.image-19
+{
+  width: 25%;
+  height: auto;
+}
+.image-19-19
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+                           
+}
+                 
+.image-20
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-20-20
+{
+  height: 120%;
+  width: 95%!important;
+  position: relative;
+  z-index: -1;
+  border-radius: 12px;
+                           
+}
+.imgpanoaqil{
+  border: 2px solid rgb(255, 252, 252);
+  width: 110px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  position: absolute;
+  top: 391%;
+  left: 1139px;
+  padding: 7px;
+  font-size: 17px;
+}
+
+                        /* column-05 done */
+#column-6
+{
+  height: 200px;
+  width: auto;
+  display: flex;
+  text-align-last: center;
+  margin-top: 60px;
+  padding: 0px 50px 0px 50px;
+}
+                          
+.image-21
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-21-21
+{
+  height: 120%;
+  width: 95%!important;
+ 
+  border-radius: 12px;
+}
+     
+                          
+.image-22
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-22-22
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+ 
+                          
+.image-23
+{
+  width: 25%;
+  height: auto;
+}
+.image-23-23
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+                           
+}
+                          
+             
+.image-24
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-24-24
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+                           
+}
+                                                             /* column-06 done */
+#column-7
+{
+  height: 200px;
+  width: auto;
+  display: flex;
+  text-align-last: center;
+  margin-top: 60px;
+  padding: 0px 50px 0px 50px;
+}
+                          
+.image-25
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-25-25
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+                                          
+.image-26
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-26-26
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+}
+                          
+.image-27
+{
+  width: 25%;
+  height: auto;
+}
+.image-27-27
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;                 
+}
+                
+.image-28
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-28-28
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;                   
+}
+                                         /* column-07 done */
+
+#column-8
+{
+  height: 200px;
+  width: auto;
+  display: flex;
+  text-align-last: center;
+  margin-top: 60px;
+  padding: 0px 50px 0px 50px;
+ 
+}
+
+.image-29
+{
+  width: 25%;
+  height: auto;
+
+}
+
+.image-29-29
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+
+}
+      
+.image-30
+{
+  width: 25%;
+  height: auto;
+}
+
+.image-30-30
+{
+  height: 120%;
+  width: 95%!important;
+  border-radius: 12px;
+
+}                        
+
+/* -------------------------------------------------cities section end------------------------------------------------------- */
+
+
+/* -------------------------------------------------App section start-------------------------------------------------------- */
+
+#app
+{
+  margin: 12% 4% 0% 4%;
+}
+#appheading
+{
+  margin-left:25px;
+  font-size: 41px;
+  font-weight: 352;
+  margin-top: 5%;
+}
+
+
+#app-main
+{
+  margin: 50px;
+  background-color: #d11d6b;
+  border-radius: 30px;
+  display: flex;
+  width: 95%;
+}
+
+.app-main-heading
+{
+  height: auto;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.app-main-mobile
+{
+  height: auto;
+  width: 50%
+}
+
+.apptext
+{
+  width:auto;
+  margin-top: 1%;
+  height: 320px;
+  padding-left: 220px;
+  color: white;
+  position: relative;
+  border-radius: 20px;
+}
+
+.phoneimg {
+  margin-top: -50px;
+}
+
+img.phoneapp {
+  width: 40% !important;
+  position: absolute;
+}
+
+.two-qr {
+  display: flex;
+  
+}
+
+
+p.textapp {
+  font-size: 40px;
+  margin-top: 50px;
+  color: white;
+  margin-left: 50px;
+}
+
+
+
+
+
+
+/* -----------------------------------------------app section done---------------------------- */
+                          
+
+/* ---------------------------------------------office section start--------------------------- */
+
+
+#office{
+  margin: 14% 0% 0% 0%;
+}
+#officeheading
+{
+  margin-left:25px;
+  font-size: 38px;
+  font-weight: 352;
+  margin-top: 2%; 
+  padding-left: 22px;
+}
+.office-bg{
+  top: 35px;
+  width: 100%;
+  position: relative;
+}
+
+#office-text
+{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 7%;
+  border-radius: 15px;
+  border: 1px solid none;
+  width: 42%;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.headtext
+{
+  font-size: 30px;
+}
+.para{
+  line-height: 28px;
+}
+
+.officebutton
+{
+  background-color: #e21b70;
+  color: white;
+  font-size: 16px;
+  padding: 9px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/* ----------------------office section done----------------------- */
+
+
+/* -------------------------conntent and FAQ's Section start ----------------------------*/
+
+#conntentandFAQs
+{
+
+  margin: 20% 12% 0% 12%;
+  width:75%;
+  padding:48px;
+  padding-top: 70px;
+  line-height: 30px;
+}
+
+.faqsline{
+  background-color: #d1b5c1;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border: #ffffff6e solid 1px;
+}
+
+#conntentandFAQs div p
+{
+font-weight: 300;
+}
+#conntentandFAQs h2
+{
+  font-size: 20px;
+}
+
+#conntentandFAQs i
+{ font-size:25px;
+  color: #e72f7f;
+transform: none !important;}
+
+#conntentandFAQs h4
+{
+  font-weight: 500;
+  font-size: 18px;
+  color: #a9aeb1;
+}
+
+#conntentandFAQs a:link
+{
+  text-decoration: none;
+  color: #d11d6b;
+  font-weight: 400;
+}
+
+
+/* --------------------------------------------------faqs done----------------------------------- */
+
+/* -----------------------main complete------------------------- */
+
+
+/* -------------------------------------footer start------------------------------------------ */
+
+
+#countries
+{
+  margin: 1% 12% 0% 12%;
+  box-shadow: rgba(60, 64, 67, 0.3) 2px  2px , rgba(60, 64, 67, 0.15) 0px  3px ;
+  width: 75%;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+}
+
+#countries .othercountries 
+{
+ font-size: 15px; 
+ padding: 12px 0px 12px 12px;
+ font-size: 18px;
+ font-weight: 200;
+ color: #a9aeb1;
+}
+
+.othercountries a:link{
+  text-decoration: none;
+  color: #969a9c;
+}
+/* -------------------------------------------more our-------------------------------------- */
+
+#moreour
+{
+  margin:5% 1% 0% 1% ;
+  display: flex;
+  
+}
+.table
+{
+  margin-left: 20%;
+  height: 10%;
+}
+td {
+  line-height: 40px;
+  color: #e92479;
+  padding: 12px;
+}
+#moreour p{
+  color: #a9aeb1;
+}
+
+/* ----------------------------more our end---------------------*/
+
+/* -----------------------media links--------------------------- */
+
+#medialinks{
+  margin:2% 1% 0% 1% ;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px , rgba(6,  44, ) 0px  6px , rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.footerimg
+{
+  width: 160px;
+}
+ #media
+{
+margin-left: 80%;}
+
+.mediapng
+{
+  width: 100px;
+ 
+}
